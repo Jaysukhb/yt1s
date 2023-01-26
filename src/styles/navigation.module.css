@@ -1,0 +1,25 @@
+.navigation {
+  display: flex;
+  justify-content: var(--align-center);
+  border-bottom: var(--border);
+}
+
+.menuList {
+  padding: 0 30px;
+}
+
+.menuLink {
+  color: var(--color-code);
+  display: inline-block;
+  padding: 30px 0;
+  text-decoration: none;
+}
+
+.menuLink:hover {
+  color: var(--color-primary);
+}
+
+.activeLink {
+  border-bottom: 2px solid red;
+  font-weight: var(--font-weight);
+}
